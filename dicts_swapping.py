@@ -7,7 +7,7 @@ def dict_swap(dict_arg):
     var_dict = {}
     for key, value in dict_arg.items():
         var_dict[value] = key
-    return dict
+    return var_dict
 
 
 print(f'\n#1. Замена ключей на значения и наоборот:')
